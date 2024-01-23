@@ -5,7 +5,7 @@ After=network.target
 [Service]
 User=admin  # Replace with the appropriate user
 Group=admin  # Replace with the appropriate group
-ExecStart=/opt/packet-distrubutor  # Adjust the path if needed
+ExecStart=/opt/packet-distributor  # Adjust the path if needed
 Restart=on-failure
 
 [Install]
