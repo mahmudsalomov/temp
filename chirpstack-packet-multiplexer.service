@@ -3,7 +3,7 @@ Description=Lora Packet Distrubutor
 After=network.target
 
 [Service]
-ExecStart=/opt/chirpstack-packet-multiplexer
+ExecStart=/opt/chirpstack-packet-multiplexer -c /opt/chirpstack-packet-multiplexer.toml
 Restart=on-failure
 
 [Install]
