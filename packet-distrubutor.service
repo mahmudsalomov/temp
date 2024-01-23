@@ -1,0 +1,12 @@
+[Unit]
+Description=Lora Packet Distrubutor
+After=network.target
+
+[Service]
+User=admin  # Replace with the appropriate user
+Group=admin  # Replace with the appropriate group
+ExecStart=/opt/packet-distrubutor  # Adjust the path if needed
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
